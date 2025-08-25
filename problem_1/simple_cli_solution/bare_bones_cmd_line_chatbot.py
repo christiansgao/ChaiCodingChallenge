@@ -1,13 +1,13 @@
 """
 Assumptions:
-1. We only need something that "works" no features or efficiency consideration.
-2. If CHAI engine uses history very well, EX: if the bot explains its past history and personality within the chat history,
+1. If CHAI engine uses history very well, EX: if the bot explains its past history and personality within the chat history,
 all this info does not necessarily need to be re-injected into the prompt every API call.
 
 Limitations:
-1. Bot and chat history does not get saved and dies when the session ends
-2. Response does not come as a stream 1 token at a time, it comes all at once as a request response due to limitations of simple python libs
-3. No GUI or images at all!
+1. This bot barely just "works" its got no features or efficiency consideration.
+2. Bot and chat history does not get saved and dies when the session ends
+3. Response does not come as a stream 1 token at a time, it comes all at once as a request response due to limitations of simple python libs
+4. No GUI or images at all!
 """
 import requests
 
