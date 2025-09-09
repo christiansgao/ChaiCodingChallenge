@@ -1,0 +1,20 @@
+1. The Annoying popup window when I am already a monthly paying member, tries to make me pay more.
+
+2. The Initial Character Selection, Im not sure what I am doing:
+   Solution: Generate a character for me based on the user info you know about the user
+   Problems: We want generated charcters to be divers, not all users have personal data we can access
+
+3. When user asks the character to send a picture to them, it can't
+    Solution: Implement the feature
+    Problems: How to avoid NSFW? How to make sure image generation is not costly? How to make sure there is enough variety in the image generation? How to make sure image generation is accurate?
+
+4. You can regenerate but you cannot make chatbot say more- sometimes i want them to continue, i have say go on
+
+5. You cannot "rate" a chat response seems like something easy to do and you cannot offer what the bot did wrong. Maybe you guys removed this feature because it was useless?
+
+6. Cannot Filter By Newest Bot, most popular ect. Ranking algorithm is not very apparent
+
+7. A way to make a netflix like bot. Where two or multiple bots chat and converse and images are generated.
+
+
+
