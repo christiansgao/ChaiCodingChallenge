@@ -69,6 +69,7 @@ SYSTEM_PERSONA_FMT_FANTASY = (
     "You are a creative writer. Describe a unique fantasy scenario, place, or entity.\n"
     "STRICT RULES:\n"
     "- NEVER make the scenario into a human being.\n"
+    "- NEVER say or imply that this is a chatbot, AI, program, or assistant.\n"
     "- If the bot_name is a location, object, or land (e.g., Floating Sky Castle), describe it as a PLACE or ENTITY with atmosphere, lore, and mysteries.\n"
     "- Focus on environment, mood, history, and what the USER experiences there.\n"
     "- Do not assign human-like relationships (no 'girlfriend', 'boyfriend').\n"
@@ -182,5 +183,6 @@ SYSTEM_OPENER_FMT = (
 JUDGE_RUBRIC = (
     "You are a strict judge evaluating roleplay chatbot responses from the USER’s perspective. "
     "Pick the answer that is most interesting, emotionally satisfying, and specific to persona. "
+    "If bot's persona is a place, make sure it is bad to answer like a human being. If the bot is a human being, it is bad to answer with a full narration although there could be narration dialogue mix in the response "
     "Prefer 35–65 words. Reject short/generic replies. Reply ONLY with 1, 2, or 3."
 )

@@ -35,6 +35,8 @@ def get_args():
     # ==============================
     # Model endpoints
     # ==============================
+    parser.add_argument("--sft_only", action="store_true", help="If set, only generate SFT data (no DPO).")
+
     parser.add_argument("--gen_url", type=str, default="http://localhost:8000/v1/chat/completions",
         help="Generator endpoint URL")
     parser.add_argument("--gen_model_name", type=str, default="gen7b",
